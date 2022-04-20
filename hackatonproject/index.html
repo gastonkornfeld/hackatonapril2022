@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="72" class="position-relative">
+    <header class="fixed-top page-header">
+      <div class="container-fluid container-fluid-max">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#home">Kornfeld Gaston</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-lg-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#process">Hackaton</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured-destinations">April/2022</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://gastonkornfeld.github.io/hackacton/">Last Hackaton</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target = '_blank' href="https://gastonkornfeld.github.io/portfolioMarch2022/">My Portfolio</a>
+              </li>
+            </ul>
+            <div class="text-white">
+              <a href="mailto:gatok37@gmail.com">
+                <div class="d-none d-xl-inline">gatok37@gmail.com</div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  
+    <main>
+      <section id="home" class="d-flex align-items-center position-relative vh-100 cover hero">
+<!-- ====================================== first game start ====================================================== -->
+        <div class="game-main-div game-1 animate__animated animate__bounceIn">
+            <div class="header-game-main-div">
+                <h2>Game Number 1</h2>
+                <p>Make the four images the same</p>
+            </div>
+            <div class="body-game-main-div">
+                <div class="images-and-buttons-game-1">
+                    <div><img id="image-1" src="https://i.pinimg.com/474x/61/62/5b/61625b91c47e4a58d0b1d338a8fd0596.jpg" alt="1"></div>
+                    <div><img id="image-2" src="https://blog.prepscholar.com/hs-fs/hubfs/body-the-green-square.jpeg?width=400&name=body-the-green-square.jpeg" alt="2"></div>
+                    <div><img id="image-3" src="https://manuals.fibaro.com/wp-content/uploads/2019/05/download.png" alt="3"></div>
+                    <div><img id="image-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yXL25w1WUDyziuUdJnRIjU5oRsd9L6CPuQ&usqp=CAU" alt="4"></div>
+                    <div><button onclick="clickfirstButton()" type="button" class="btn btn-info" id="button-1">Change</button></div>
+                    <div><button onclick="clicksecondButton()" type="button" class="btn btn-success" id="button-2">The</button></div>
+                    <div><button onclick="clickthirdButton()" type="button" class="btn btn-danger" id="button-3">Images</button></div>
+                    <div><button onclick="clickfourthButton()" type="button" class="btn btn-dark" id="button-4">Above</button></div>
+                </div>
+            </div>
+        </div>
+<!-- ====================================== first game end ====================================================== -->
+        
+<!-- ====================================== second game start ====================================================== -->
+
+        <div class="game-main-div game-2 animate__animated animate__bounceIn">
+            <div class="header-game-main-div">
+                <h2>Game Number 2</h2>
+                <p>Click the correct image</p>
+            </div>
+            <div class="body-game-main-div">
+                <div class="images-game-2">
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img id="click-to-win" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                    <div><img class="mouse-over-hidden" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXj1eiRaprwQ/company-logo_200_200/0/1519888081416?e=2147483647&v=beta&t=SgoUFHgfDG4F88xpxPGaO5j0vrkszM7EJuW-xcIXqSw" alt="hidden-image"></div>
+                </div>
+            </div>
+        </div>
+
+<!-- ====================================== second game finish ====================================================== -->
+
+<!-- =============================================== third game starts ============================================== -->
+        <div class="game-main-div game-3 animate__animated animate__bounceIn">
+          <div class="header-game-main-div">
+            <h2>Game Number 3</h2>
+            <p>Answer the questions</p>
+          </div>
+          <div class="body-game-main-div body-game-3">
+            <div>
+              <p>Question 1: What has to be broken before you use it? </p>
+              <p>Question 2: peter's father has five sons.
+                The names of four sons are Fefe, Fifi, Fafa and Fufu respectively.
+                What is the name of the fifth son? </p>
+              <p>Question 3: What has many keys but can't open a single lock?</p>
+              <p>Question 4 : What is the one thing that all wise men, 
+                regardless of their religion or politics, agree is between heaven and earth?</p>
+            </div>
+            <div>
+              <form>
+                <label for="question1">Question 1</label>
+                <input type="text" id="question1" name="question1" value="">
+                <label for="question2">Question 2</label>
+                <input type="text" id="question2" name="question2" value=""></br>
+                <label for="question3">Question 3</label>
+                <input type="text" id="question3" name="question3" value="">
+                <label for="question4">Question 4</label>
+                <input type="text" id="question4" name="question4" value=""></br>
+                <input id='submit-game-3' type="submit" value="Submit">
+              </form> 
+            </div>    
+            
+          </div>
+        </div>
+        
+
+<!-- =============================================== third game ends ============================================== -->
+<!-- =================================fourth game starts============================================= -->
+        <div class="game-main-div game-4 animate__animated animate__bounceIn">
+          <div class="header-game-main-div">
+            <h2>Game Number 4</h2>
+            <p>Drag the colors to make the rainbow</p>
+          </div>
+          <div class="body-game-main-div body-game-4">
+            <div id="game-4-colors-div">
+              <div class="rainbow-div">
+                <img src="https://i.pinimg.com/originals/e3/c1/78/e3c17822199061a3f3a9af3056e3f405.gif" alt="">
+              </div>
+              <div id="color1" class="dragabble" ondragstart="dragStart(event)" draggable="true">YELLOW</div>
+              <div id="color2" class="dragabble" ondragstart="dragStart(event)" draggable="true">RED</div>
+              <div id="color3" class="dragabble" ondragstart="dragStart(event)" draggable="true">GREEN</div>
+              <div id="color4" class="dragabble" ondragstart="dragStart(event)" draggable="true">INDIGO</div>
+              <div id="color5" class="dragabble" ondragstart="dragStart(event)" draggable="true">VIOLET</div>
+              <div id="color6" class="dragabble" ondragstart="dragStart(event)" draggable="true">ORANGE</div>
+              <div id="color7" class="dragabble" ondragstart="dragStart(event)" draggable="true">BLUE</div>
+            </div>
+            <div id="game-4-colors-div">
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div class="todrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+          </div>
+        </div>
+
+<!-- =================================fourth game ends ============================================= -->
+      </section>
+  
+    </main>
+    <footer class="py-4 page-footer">
+      <div class="container-fluid container-fluid-max">
+        <div class="row">
+          <div class="col-12 col-md-6 footer-child copyright">
+            Kornfeld Gaston © 2022 All Rights Reserved
+          </div>
+          <div class="col-12 col-md-6 footer-child footer-links">
+            <div>
+              <small>Made by <a href="https://gastonkornfeld.github.io/portfolioMarch2022/" target="_blank">Kornfeld Gaston</a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>

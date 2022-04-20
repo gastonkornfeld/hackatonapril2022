@@ -1,0 +1,292 @@
+
+:root {
+  --lightblue: #f6f9fc;
+  --red: #d64041;
+}
+  
+a, a:hover {
+    color: inherit;
+}
+  
+a:hover {
+  text-decoration: none;
+}
+  
+.bg-lightblue {
+  background: var(--lightblue);
+}
+  
+.bg-red {
+  background: var(--red);
+}
+  
+.text-red {
+  color: var(--red);
+}
+
+.container-fluid-max {
+  max-width: 1440px;
+}
+
+.cover {
+  background: no-repeat center/cover;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+/* SCROLL ANIMATIONS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.scroll .page-header {
+  background: var(--red);
+}
+
+.scroll .hero {
+  transform: scale(0.98);
+}
+
+/* HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-header {
+  transition: background 0.5s ease-in-out;
+}
+
+.page-header .navbar {
+  padding: 1rem 0;
+}
+
+.page-header .navbar-toggler {
+  /* the variable is inherited from BS4 built-in variables */
+  border-color: var(--white); 
+}
+
+/* BANNER SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  background-attachment: fixed;
+  transition: transform 0.5s ease-in-out;
+  background-image:url('https://c8.alamy.com/comp/MBW9FG/focused-young-developer-coding-late-in-office-writing-script-shown-on-computer-monitors-serious-handsome-coder-programmer-hacker-programming-developi-MBW9FG.jpg');
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5) 0,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+}
+
+.hero .container-fluid {
+  z-index: 2;
+}
+
+
+/* PAGE FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer .footer-links {
+  text-align: right;
+}
+
+
+.game-main-div{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 60vw;
+  height: 60vh;
+  margin: auto;
+  z-index: 3;
+}
+
+
+
+.body-game-main-div{
+  margin: 0 auto;
+  width: 90%;
+  height: 60%;
+}
+
+.header-game-main-div {
+  margin: 5px auto;
+  text-align: center;
+}
+
+.images-and-buttons-game-1 {
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.images-game-2 {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.images-and-buttons-game-1 div img {
+  width: 20vh;
+  height: 20vh;
+}
+
+.images-game-2 div img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.images-and-buttons-game-1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images-and-buttons-game-1 div button {
+  cursor: pointer !important;
+}
+
+/* game 3 */
+
+.body-game-3 {
+  margin: 0 auto;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form input{
+  margin: 5px auto;
+}
+
+form {
+  text-align: center;
+}
+
+/* game 3 */
+
+
+/* game 4 */
+
+.body-game-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#game-4-colors-div {
+  display: flex;
+  border: 2px solid blue;
+  height: 35vh;
+}
+
+.dragabble {
+  width: 3vw;
+  height: 34vh;
+  margin: 1px;
+  border: 1px solid black;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.todrag {
+  width: 3vw;
+  height: 34vh;
+  margin: 1px;
+  border: 1px solid black;
+}
+
+#color1, #color2, #color3, #color4, #color5, #color6, #color7 {
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#color1 {
+  background-color: yellow;
+  
+}
+#color2 {
+  background-color: red;
+}
+#color3 {
+  background-color: green;
+}
+#color4 {
+  background-color: indigo;
+  color: white;
+}
+#color5 {
+  background-color: violet;
+  
+}
+#color6 {
+  background-color: orange;
+}
+#color7 {
+  background-color: blue;
+  color: white;
+}
+
+.rainbow-div {
+  display: none;
+}
+
+.rainbow-div img{
+  width: 40vh;
+  height: 30vh;
+}
+
+
+
+/* game 4 ends */
+
+/* manage the game div to be hide in hte beggining */
+
+/* .game-1 {
+  display: none;
+} */
+
+.game-2 {
+  display: none;
+}
+
+.game-3 {
+  display: none;
+  width: 80vw;
+  height: 80vh;
+}
+
+.game-4 {
+  display: none;
+  width: 80vw;
+  height: 80vh;
+}
+
+
+
+/* MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* MEDIUM SCREENS */
+@media screen and (max-width: 991px) {
+  .page-header {
+    background: var(--red);
+  }
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
+  }
+}

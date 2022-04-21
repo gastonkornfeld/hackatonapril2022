@@ -10,6 +10,7 @@ let firstGameDiv = document.getElementsByClassName('game-1')[0];
 let secondGameDiv = document.getElementsByClassName('game-2')[0];
 let thirdGameDiv = document.getElementsByClassName('game-3')[0];
 let fourthGameDiv = document.getElementsByClassName('game-4')[0];
+let fifthGameDiv = document.getElementsByClassName('game-5')[0];
 
 
 let button1 = document.querySelectorAll('button')[1];
@@ -276,6 +277,142 @@ function drop(event) {
         imageDiv.style.display = 'flex';
         setTimeout(() => {
             fourthGameDiv.style.display = 'none';
+            fifthGameDiv.style.display = 'flex';
         }, 5000);
     }
+}
+
+
+
+
+// game 5 logic
+let card1 = document.getElementsByClassName('card-1')[0];
+let card2 = document.getElementsByClassName('card-2')[0];
+let card3 = document.getElementsByClassName('card-3')[0];
+let card4 = document.getElementsByClassName('card-4')[0];
+let card5 = document.getElementsByClassName('card-5')[0];
+let card6 = document.getElementsByClassName('card-6')[0];
+let card7 = document.getElementsByClassName('card-7')[0];
+let card8 = document.getElementsByClassName('card-8')[0];
+let card9 = document.getElementsByClassName('card-9')[0];
+let card10 = document.getElementsByClassName('card-10')[0];
+let card11 = document.getElementsByClassName('card-11')[0];
+let card12 = document.getElementsByClassName('card-12')[0];
+let card13 = document.getElementsByClassName('card-13')[0];
+let card14 = document.getElementsByClassName('card-14')[0];
+let card15 = document.getElementsByClassName('card-15')[0];
+let card16 = document.getElementsByClassName('card-16')[0];
+let card17 = document.getElementsByClassName('card-17')[0];
+let card18 = document.getElementsByClassName('card-18')[0];
+let card19 = document.getElementsByClassName('card-19')[0];
+let card20 = document.getElementsByClassName('card-20')[0];
+
+
+
+
+function mathChoice() {
+    card1.style.display = 'none';
+    card2.style.display = 'flex';
+}
+
+function computerChoice() {
+    card1.style.display = 'none';
+    card3.style.display = 'flex';
+}
+
+function fashionChoice() {
+    card2.style.display = 'none';
+    card4.style.display = 'flex';
+}
+
+function cookingChoice() {
+    card2.style.display = 'none';
+    card5.style.display = 'flex';
+}
+
+function dancingChoice() {
+    card4.style.display = 'none';
+    card6.style.display = 'flex';
+}
+
+function tvChoice() {
+    card4.style.display = 'none';
+    card7.style.display = 'flex';
+}
+
+function pokerChoice() {
+    card5.style.display = 'none';
+    card8.style.display = 'flex';
+}
+
+function blackjChoice() {
+    card5.style.display = 'none';
+    card9.style.display = 'flex';
+}
+
+function racingChoice() {
+    card3.style.display = 'none';
+    card10.style.display = 'flex';
+}
+
+function medicineChoice() {
+    card3.style.display = 'none';
+    card11.style.display = 'flex';
+}
+
+function hikingChoice() {
+    card10.style.display = 'none';
+    card12.style.display = 'flex';
+}
+
+function bikingChoice() {
+    card10.style.display = 'none';
+    card13.style.display = 'flex';
+}
+
+function coffeeChoice() {
+    card11.style.display = 'none';
+    card14.style.display = 'flex';
+}
+
+function teaChoice() {
+    card11.style.display = 'none';
+    card15.style.display = 'flex';
+}
+
+function restartGame() {
+    card16.style.display = 'none';
+    card17.style.display = 'none';
+    card18.style.display = 'none';
+    card19.style.display = 'none';
+    card1.style.display = 'flex';
+}
+
+function zeroCorrect() {
+    card12.style.display = 'none';
+    card13.style.display = 'none';
+    card14.style.display = 'none';
+    card15.style.display = 'none';
+    card16.style.display = 'flex';
+}
+
+function oneCorrect() {
+    card6.style.display = 'none';
+    card7.style.display = 'none';
+    card17.style.display = 'flex';
+}
+
+function twoCorrect() {
+    card9.style.display = 'none';
+    card18.style.display = 'flex';
+}
+
+function threeCorrect() {
+    card8.style.display = 'none';
+    card19.style.display = 'flex';
+}
+
+function endGame5() {
+    card8.style.display = 'none';
+    card20.style.display = 'flex';
 }
